@@ -59,7 +59,7 @@ border-spacing: 0;
 /* MAIN CONTENT */
 
 
-header {background-color: aqua;
+header {background-color: #93a591;
 		padding-top:30px;
 	padding-bottom: 50px;
 	
@@ -71,40 +71,66 @@ header {background-color: aqua;
 	max-width: 960px;
 	
 
+	
 			}
 /* Kaite Conner top -left */ 
 
 .logo {float: left;
 		font-size: 2em;
 		font-weight: bolder;
-		background-color: red;
+		background-color: #4aaaa5 ;
 		padding: 24px;
 	margin-top: -30px;
+	color: #f2f1c4
 		}
 
 .floatkt {float: left;}
-body {background-color:aliceblue;}
+
+body {background-color: #cbc5a1;
+		} 
 
 #wrapper { margin: 0 auto; 
 			margin-top: 50px;
 		  width: 960px; 
 }
 
-
+/* Header section about me / contact / portfolio */
 .about { padding-top: 30px;
 		padding-left: 20px;
 		padding-bottom: 5px;
-		font-size: 2em;}
+		font-size: 2em;
+ }
+ 
+
+/* line seperator*/ 
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 20PX;;
+  margin-right: 20PX;
+  border-style: inset;
+  border-width: 1px;
+}
 
 img {padding: 2%;}
 
+.paragraph {}
 
+.footer-container {text-align: center;
+				background-color: #93a591;
+				margin-top: 20px;
+				padding-top: 10px;
+				 border-top: 8px solid #4aaaa5;}
 
-nav { float:right;
-	 ;
-clear:right;
+nav a { float:right;
+   text-decoration: none;
+	margin-right: 10px;
 }
 
+p {margin-right: 20px;
+	margin-left: 20px;
+	line-height: 2}
 
-main { background-color: antiquewhite;
+main { background-color: #f2f1c4;
 margin-top: 40px;}
